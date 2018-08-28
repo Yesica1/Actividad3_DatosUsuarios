@@ -31,13 +31,13 @@ public class MainActivity extends AppCompatActivity {
             * y que no ocasione problemas al crashearse.*/
                 if (nombres.getText().toString().isEmpty())
                 {
-                    Toast.makeText(getApplicationContext(),"Favor de ingresar el nombre", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(),"Favor de ingresar sus nombres", Toast.LENGTH_LONG).show();
                     return;
                 }
 
                 if (apellidos.getText().toString().isEmpty())
                 {
-                    Toast.makeText(getApplicationContext(),"Favor de ingresar el apellido", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(),"Favor de ingresar sus apellidos", Toast.LENGTH_LONG).show();
                     return;
                 }
 

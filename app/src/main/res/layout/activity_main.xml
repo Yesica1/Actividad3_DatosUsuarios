@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <ScrollView
 xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -95,10 +96,11 @@ tools:context=".MainActivity">
         android:layout_marginRight="25dp"
         android:layout_marginTop="35dp"
         style="?android:attr/borderlessButtonStyle"
-
         android:background="@color/colorPrimary"
         android:textColor="#FFFFFF"
 
         android:text="@string/button_agregar"/>
+
 </LinearLayout>
+
 </ScrollView>
