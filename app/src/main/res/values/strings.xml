@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DatosUsuarios</string>
+    <string name="ingresa_datos">Favor de ingresar los datos siguientes: </string>
+    <string name="nombres">Nombres: </string>
+    <string name="apellidos">Apellidos: </string>
+    <string name="edad">Edad: </string>
+    <string name="button_agregar">AGREGAR DATOS</string>
+    <string name="datos_titulo">DATOS INGRESADOS: </string>
+
+
+</resources>

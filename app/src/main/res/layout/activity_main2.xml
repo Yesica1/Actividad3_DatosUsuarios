@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--TextView del texto de el inicio -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:text="@string/datos_titulo"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"/>
+
+    <!--TextView del texto nombre -->
+    <TextView
+        android:id="@+id/textonombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="85dp"
+        android:text="@string/nombres"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp" />
+
+    <!--TextView donde aparecerá el nombre ingresado-->
+    <TextView
+        android:id="@+id/datosnombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textonombre"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="150dp"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <!--TextView del texto apellido -->
+    <TextView
+        android:id="@+id/textapellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textonombre"
+        android:layout_marginTop="149dp"
+        android:text="@string/apellidos"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp" />
+
+    <!--TextView donde aparecerá el apellido ingresado -->
+    <TextView
+        android:id="@+id/datosapellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="150dp"
+        android:layout_alignTop="@+id/textapellido"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <!--TextView del texto edad -->
+    <TextView
+        android:id="@+id/textoedad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textonombre"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="209dp"
+        android:text="@string/edad"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp" />
+
+
+    <!--TextView donde aparecerá la edad ingresada-->
+    <TextView
+        android:id="@+id/datosedad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="150dp"
+        android:layout_alignTop="@+id/textoedad"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>
+
+
+</ScrollView>
+
+
+
+
+
+
+
+
+

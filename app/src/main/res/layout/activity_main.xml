@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <!--TextView del texto de el inicio -->
+    <TextView
+        android:id="@+id/ingresar_datosnec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:text="@string/ingresa_datos"
+        android:layout_marginLeft="20dp"/>
+
+
+    <!--TextView de la vista de nombres -->
+    <TextView
+        android:id="@+id/nombres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:text="@string/nombres"
+        android:textColor="#000000"
+        android:layout_marginLeft="20dp"/>
+
+    <!--EditText donde el usuario almacenará sus nombres-->
+    <EditText
+        android:id="@+id/ET_nombres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ej. Yesica Lizbeth"
+        android:layout_marginLeft="20dp"
+        android:inputType="textPersonName"/>
+
+
+    <!--TextView de la vista de apellido-->
+    <TextView
+        android:id="@+id/apellidos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:text="@string/apellidos"
+        android:textColor="#000000"
+        android:layout_marginLeft="20dp"/>
+
+    <!--EditText donde el usuario almacenará sus apellidos-->
+    <EditText
+        android:id="@+id/ET_apellidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ej. Aldape García"
+        android:layout_marginLeft="20dp"
+        android:inputType="text"/>
+
+    <!--TextView de la vista de edad-->
+    <TextView
+        android:id="@+id/edad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:text="@string/edad"
+        android:textColor="#000000"
+        android:layout_marginLeft="20dp" />
+
+    <!--EditText donde el usuario almacenará su edad solo numeros-->
+    <EditText
+        android:id="@+id/ET_edad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ej. 19"
+        android:layout_marginLeft="20dp"
+        android:inputType="number"/>
+
+    <!--Button donde aparece agregar datos-->
+    <Button
+        android:id="@+id/BT_agregar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="35dp"
+        style="?android:attr/borderlessButtonStyle"
+
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"
+
+        android:text="@string/button_agregar"/>
+</LinearLayout>
+</ScrollView>
